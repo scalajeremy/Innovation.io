@@ -3,7 +3,50 @@
 {% extends "_common.njk" %}
 
 {% block content %}
-<p>
-  <i class="fas fa-arrow-right"></i> Insert content here. <i class="fas fa-arrow-left"></i>
-</p>
+<div id="sliderHomeFluid" class="container-fluid">
+  <div id="sliderHome" class="carousel slide" date-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#sliderHome" data-slide-to="0" class="active"></li>
+      <li data-target="#sliderHome" data-slide-to="1"></li>
+      <li data-target="#sliderHome" data-slide-to="2"></li>
+      <li data-target="#sliderHome" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="img/dummy4.jpg?auto=yes" alt="">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/dummy3.jpg?auto=yes" alt="">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/dummy2.jpeg?auto=yes" alt="">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/dummy5.jpeg?auto=yes" alt="">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#sliderHome" role="button" data-slide="prev">
+     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     <span class="sr-only">Previous</span>
+   </a>
+   <a class="carousel-control-next" href="#sliderHome" role="button" data-slide="next">
+     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     <span class="sr-only">Next</span>
+   </a>
+  </div>
+</div>
+<div class="p-3 mb-2 bg-red text-black">
+  <div class="row">
+    <div class="col-4">
+      One of three columnsOne of three columnsOne of three columnsOne of three columnsOne of three columnsOne of three columnsOne of three columnsOne of three columns
+    </div>
+    <div class="col-4">
+      One of three columnsOne of three columnsOne of three columnsOne of three columnsOne of three columnsOne of three columnsOne of three columnsOne of three columns
+    </div>
+    <div class="col-4">
+      One of three columnsOne of three columnsOne of three columnsOne of three columnsOne of three columnsOne of three columnsOne of three columnsOne of three columns
+    </div>
+  </div>
+</div>
+
 {% endblock %}

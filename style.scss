@@ -8,3 +8,42 @@
   If you need some CSS for any reason you can put it here.
 */
 
+/* CAROUSEL */
+.carousel-indicators li {
+  height: 30px;
+  width: 50px;
+}
+#sliderHomeFluid.container-fluid{
+padding: 0;
+}
+.carousel-inner{
+    max-height: 500px;
+}
+//
+// .carousel-item, img{
+//     min-height: 500px;
+//     width:  100%;
+// }
+
+/* NAVBAR */
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+}
+
+a.nav-link {
+
+  margin-left: 30px;
+}
+
+#navbar.container-fluid{
+padding: 0;
+}
+
+/* TEAM PAGE */
+
+.card-img-top {
+  width: 65%;
+  border-top-left-radius: calc(0.25rem - 0);
+  border-top-right-radius: calc(0.25rem - 0);
+}

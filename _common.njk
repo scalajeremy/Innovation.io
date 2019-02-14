@@ -20,21 +20,41 @@
 
   </head>
   <body>
-    
-    <div class="container">
       <header>
-        <h1>BeCode / JavaScript for the Web</h1>
-        <h2>
-          <strong><i class="fas fa-arrow-right"></i> Insert exercise name here <i class="fas fa-arrow-left"></i></strong>
-        </h2>
+        <div id="navbar" class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="./index.njk">Innovation</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor02">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.njk">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./team.njk">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.njk">Pricing</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
       </header>
       <div class="content">
         {% block content %}
         {% endblock %}
       </div>
-    </div>
+      <footer>
+        <div id="navbar" class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            Coucou je suis perdu dans le footer
+          </nav>
+        </div>
+      </footer>
 
     <script src="./script.js"></script>
   </body>
 </html>
-
