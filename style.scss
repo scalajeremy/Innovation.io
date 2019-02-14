@@ -12,18 +12,17 @@
 .carousel-indicators li {
   height: 30px;
   width: 50px;
+  background-color: #222;
 }
+
 #sliderHomeFluid.container-fluid{
 padding: 0;
 }
+
 .carousel-inner{
     max-height: 500px;
 }
-//
-// .carousel-item, img{
-//     min-height: 500px;
-//     width:  100%;
-// }
+
 
 /* NAVBAR */
 
@@ -32,7 +31,6 @@ padding: 0;
 }
 
 a.nav-link {
-
   margin-left: 30px;
 }
 
@@ -44,6 +42,40 @@ padding: 0;
 
 .card-img-top {
   width: 65%;
+  margin-top: 1rem;
+  margin-bot: 1rem;
   border-top-left-radius: calc(0.25rem - 0);
   border-top-right-radius: calc(0.25rem - 0);
+}
+
+
+/* PARALLAX */
+
+section.module.parallax {
+  height: 200px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display:flex;
+}
+
+section.module.parallax-team {
+  background-image: url("./img/team_full.jpeg");
+  background-position: 50% 100%;
+}
+section.module.parallax-contact {
+  background-image: url("./img/contact.jpeg");
+  background-position: center center;
+}
+
+.container#parallax {
+  color: white;
+
+  align-self: flex-end;
+
+  width: auto;
+  padding: 5px;
+  background-color: #222;
+  // text-align: center;
+  text-transform: uppercase
 }
