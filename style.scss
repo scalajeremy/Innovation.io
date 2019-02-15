@@ -92,3 +92,20 @@ section.module.parallax-home {
   background-color: #222;
   text-transform: uppercase
 }
+
+
+#teamImg{
+  object-fit: cover; // Don't scale the image
+  object-position: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+}
+
+#teamImg{
+  object-fit: cover; // Don't scale the image
+  object-position: center;
+  height: 250px;
+  width: 250px;
+  border-radius: 100px;
+}

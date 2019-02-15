@@ -6,7 +6,7 @@ Fake website for learning how to use Bootstrap
 
 ## Status
 
-Getting in shape
+Everything works great. Not finish with the team page, but fur now it's ok.
 
 ## Know Issues
 
