@@ -8,6 +8,8 @@ Fake website for learning how to use Bootstrap
 
 Everything works great. Not finish with the team page, but fur now it's ok.
 
+Didn't make some captions for the slides.
+
 ## Know Issues
 
 * Don't know yet... but comming soon... :p
