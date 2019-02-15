@@ -8,6 +8,10 @@
   If you need some CSS for any reason you can put it here.
 */
 
+body {
+  font-size: 1rem;
+}
+
 /* CAROUSEL */
 .carousel-indicators li {
   height: 30px;
@@ -22,7 +26,6 @@ padding: 0;
 .carousel-inner{
     max-height: 500px;
 }
-
 
 /* NAVBAR */
 
@@ -52,7 +55,15 @@ padding: 0;
 /* PARALLAX */
 
 section.module.parallax {
-  height: 200px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display:flex;
+}
+
+section.module.parallaxFull {
+  height: auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -67,15 +78,17 @@ section.module.parallax-contact {
   background-image: url("./img/contact.jpeg");
   background-position: center center;
 }
+section.module.parallax-home {
+  background-image: url("./img/home1.jpg");
+  background-position: center center;
+}
 
 .container#parallax {
   color: white;
-
   align-self: flex-end;
-
   width: auto;
-  padding: 5px;
+  padding: 10px;
+  margin-right: 75%;
   background-color: #222;
-  // text-align: center;
   text-transform: uppercase
 }
